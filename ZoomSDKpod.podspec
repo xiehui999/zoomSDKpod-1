@@ -12,12 +12,12 @@ Pod::Spec.new do |spec|
   spec.summary      = "Original framework for Zoom.us service"
   spec.homepage     = "https://github.com/zoom/zoom-sdk-ios"
   spec.license      = { :type => "Commercial", :file => "LICENSE.md" }
-  spec.author             = { "Pavel Smelovsky" => "pavel.smelovsky@gmail.com" }
+  spec.author             = { "Tushar kalsara" => "tusharrkdev@gmail.com" }
 
   spec.swift_version              = "5.0"
   spec.ios.deployment_target      = "10.0"
 
-  spec.source       = { :git => "https://github.com/pavelsmelovsky/ZoomSDK.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/tusharrk/zoomSDKpod.git", :tag => "v#{spec.version}" }
 
   spec.libraries = "z", "c++", "sqlite3"
   spec.frameworks = "Foundation", "UIKit", "VideoToolbox", "CoreBluetooth", "ReplayKit", "CoreMotion"
